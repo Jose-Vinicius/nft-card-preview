@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Frontend Mentor | NFT preview card component</title>
-  
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <header class="container__header header">
+      <img src="./images/image-equilibrium.jpg" alt="">
+      <div class="header__sobreposicao">
+        <div class="header__sobreposicao--conteudo">
+          <img src="./images/icon-view.svg" alt="">
+        </div>
+      </div>
+    </header>
+    <section class="container__content content">
+      <h1 class="content__title">Equilibrium #3429</h1>
+      <p class="content__description">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="content__infos">
+        <span class="infos__balance">0.041 ETH</span>
+        <span class="infos__lastModification">3 days left</span>
+      </div>
+    </section>
+    <footer class="container__footer footer">
+      <img class="footer__img" src="https://avatars.githubusercontent.com/u/70924237?v=4" alt="imagem do perfil de Jose Vinicius">
+      <span class="footer__description">Creation of <a href="https://github.com/Jose-Vinicius">José Vinicius</a></span>
+    </footer>
   </div>
 </body>
 </html>

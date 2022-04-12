@@ -1,0 +1,123 @@
+body{
+    background-color:$dark_blue-main;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.container{
+    background-color: $dark_blue-card;
+    width: 85%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+
+    .header{
+        position: relative;
+        width: 100%;
+        display: inline-block;
+
+        &:hover .header__sobreposicao{
+            opacity: 0.6;
+            cursor: pointer;
+        }
+        
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        &__sobreposicao{
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: $Cyan;
+            border-radius: 20px;
+
+            &--conteudo{
+                width: 100px;
+                opacity: 1;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    .content{
+        &__title{
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Outfit', sans-serif;
+            color: $White;
+            transition: 0.3s;
+            cursor: pointer;
+            @include active;
+        }
+        &__description{
+            font-size: 18px;
+            font-weight: 300;
+            color: $Soft-blue;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .infos{
+            display: flex;
+            flex-direction: row;
+
+            &__balance{
+                color: $Cyan;
+                background: url(../images/icon-ethereum.svg) no-repeat;
+                padding-left: 17px;
+                margin-right: 120px;
+            }
+
+            &__lastModification{
+                color: $Soft-blue;
+                background: url(../images/icon-clock.svg) no-repeat;
+                padding-left: 17px;
+            }
+        }
+    }
+
+    .footer{
+        border-top: 1px solid $dark_blue-line;
+        margin: 10px 0;
+        padding: 10px 0;
+        display: flex;
+        text-align: center;
+
+        &__img{
+            border-radius: 100px;
+            width: 30px;
+            position: absolute;
+            margin-top: 20px;
+        }
+
+        &__description{
+            color: $Soft-blue;
+            padding-left: 35px;
+            font-size: 18px;
+            margin-top: 20px;
+
+
+            a{
+                padding-left: 2px;
+                color:$White;
+                text-decoration: none;
+                font-size: 18px;
+                transition: 0.3s;
+                @include active;
+            }
+
+        }
+    }
+}
