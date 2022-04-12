@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://nft-card-preview-three.vercel.app/)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/nftcardpreview-H1XN6rzEc)
+- Live Site URL: [Vercel](https://nft-card-preview-three.vercel.app/)
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Linkedin - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Jose-Vinicius](https://www.frontendmentor.io/profile/Jose-Vinicius)
+- Linkedin - [@Jose-vinicius](https://www.linkedin.com/in/jose-vinicius--/)
