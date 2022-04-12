@@ -78,12 +78,14 @@ body{
                 background: url(../images/icon-ethereum.svg) no-repeat;
                 padding-left: 17px;
                 margin-right: 120px;
+                font-size: 18px;
             }
 
             &__lastModification{
                 color: $Soft-blue;
                 background: url(../images/icon-clock.svg) no-repeat;
                 padding-left: 17px;
+                font-size: 18px;
             }
         }
     }

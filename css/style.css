@@ -74,11 +74,13 @@ body {
   background: url(../images/icon-ethereum.svg) no-repeat;
   padding-left: 17px;
   margin-right: 120px;
+  font-size: 18px;
 }
 .container .content .infos__lastModification {
   color: #8bacda;
   background: url(../images/icon-clock.svg) no-repeat;
   padding-left: 17px;
+  font-size: 18px;
 }
 .container .footer {
   border-top: 1px solid #2f415b;
